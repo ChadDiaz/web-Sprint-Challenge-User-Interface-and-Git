@@ -98,9 +98,13 @@ p {
 * .textcontainer {
     width: 50%;
 }
-* .textcontainer p {
-    margin-bottom: 1rem;
+* .textcontainer h3 {
+    margin-top: 1rem;
 }
+* .textcontainer p {
+    margin-bottom: 2rem;
+}
+
 * .textcontainer a {
     text-decoration: none;
     color: black;
@@ -125,4 +129,23 @@ p {
     padding: 0 1%;
     padding-bottom: 2rem;
     border-bottom: 1px dashed black;
+}
+.bottomcontent {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2%;
+    font-size: 1.4rem;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
