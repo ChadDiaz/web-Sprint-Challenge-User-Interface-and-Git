@@ -71,7 +71,20 @@ p {
     margin: 0 auto;
 }
 /* Header CSS */
-
+.mainheader {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.mainheader a {
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+.jumbopic {
+    margin-bottom: 2rem;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
